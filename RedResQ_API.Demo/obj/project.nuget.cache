@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "1hrvW/cB7BjesgtJV0O3qeitTGkPm1gIUZH+zDphSzqmqKUZNBQlA1ukstBWiLgjRyPNFSyI3+PyiOgte8HlPw==",
+  "dgSpecHash": "xGm6BNxDIBCt0DD8J+and0anSFZvVWU8r62H39ENh0A28sMNsAx0D3mOvJQwmfhhh3ySMx/DaiUqCR1Ocd8Ysw==",
   "success": true,
   "projectFilePath": "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Demo\\RedResQ_API.Demo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

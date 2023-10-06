@@ -1,0 +1,6 @@
+C:\Users\phili\Documents\ITP\RedResQ_API\RedResQ_API.Lib\bin\Debug\RedResQ_API.Lib.dll
+C:\Users\phili\Documents\ITP\RedResQ_API\RedResQ_API.Lib\bin\Debug\RedResQ_API.Lib.pdb
+C:\Users\phili\Documents\ITP\RedResQ_API\RedResQ_API.Lib\obj\Debug\RedResQ_API.Lib.csproj.AssemblyReference.cache
+C:\Users\phili\Documents\ITP\RedResQ_API\RedResQ_API.Lib\obj\Debug\RedResQ_API.Lib.csproj.CoreCompileInputs.cache
+C:\Users\phili\Documents\ITP\RedResQ_API\RedResQ_API.Lib\obj\Debug\RedResQ_API.Lib.dll
+C:\Users\phili\Documents\ITP\RedResQ_API\RedResQ_API.Lib\obj\Debug\RedResQ_API.Lib.pdb

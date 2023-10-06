@@ -32,7 +32,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj": {
+                "projectPath": "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -44,6 +48,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,6 +75,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj",
+        "projectName": "RedResQ_API.Lib",
+        "projectPath": "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
       }
     }
   }
