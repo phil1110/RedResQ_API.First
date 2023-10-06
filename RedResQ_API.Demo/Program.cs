@@ -1,5 +1,6 @@
 using Microsoft.OpenApi.Models;
 using RedResQ_API.Lib;
+using System.Data.SqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,7 +23,13 @@ app.UseSwaggerUI(c =>
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "TODO API V1");
 });
 
-app.MapGet("/", () => "Hello 1!");
+app.MapGet("/", () =>
+{
+    var settings = new Settings();
+    //Console.WriteLine(settings.Credential);
+    
+    return new Product(1, "test");
+});
 app.MapGet("/test", () => "Hello 2!");
 app.MapPost("/echo", (Product p) =>
 {
