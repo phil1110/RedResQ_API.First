@@ -42,16 +42,17 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="JsonHandler.cs" />
         <Compile Include="Product.cs" />
         <Compile Include="Settings.cs" />
         <Compile Include="SqlHandler.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
-      <None Include="packages.config" />
+      <Folder Include="Config\" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Config\" />
+      <None Include="packages.config" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
