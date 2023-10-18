@@ -7,6 +7,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configure API to allow all Hosts
+// Might be unsafe, but able to change to specific IP-Address
+// builder.WebHost.UseUrls("https://0.0.0.0:443");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

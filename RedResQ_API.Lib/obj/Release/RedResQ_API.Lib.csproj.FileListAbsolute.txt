@@ -7,3 +7,12 @@ C:\Users\phili\Documents\ITP\RedResQ_API\RedResQ_API.Lib\obj\Release\RedResQ_API
 C:\Users\phili\Documents\ITP\RedResQ_API\RedResQ_API.Lib\obj\Release\RedResQ_API.Lib.csproj.CopyComplete
 C:\Users\phili\Documents\ITP\RedResQ_API\RedResQ_API.Lib\obj\Release\RedResQ_API.Lib.dll
 C:\Users\phili\Documents\ITP\RedResQ_API\RedResQ_API.Lib\obj\Release\RedResQ_API.Lib.pdb
+C:\Users\phili\Source\Repos\phil1110\RedResQ_API\RedResQ_API.Lib\bin\Release\RedResQ_API.Lib.dll
+C:\Users\phili\Source\Repos\phil1110\RedResQ_API\RedResQ_API.Lib\bin\Release\RedResQ_API.Lib.pdb
+C:\Users\phili\Source\Repos\phil1110\RedResQ_API\RedResQ_API.Lib\bin\Release\Newtonsoft.Json.dll
+C:\Users\phili\Source\Repos\phil1110\RedResQ_API\RedResQ_API.Lib\bin\Release\Newtonsoft.Json.xml
+C:\Users\phili\Source\Repos\phil1110\RedResQ_API\RedResQ_API.Lib\obj\Release\RedResQ_API.Lib.csproj.AssemblyReference.cache
+C:\Users\phili\Source\Repos\phil1110\RedResQ_API\RedResQ_API.Lib\obj\Release\RedResQ_API.Lib.csproj.CoreCompileInputs.cache
+C:\Users\phili\Source\Repos\phil1110\RedResQ_API\RedResQ_API.Lib\obj\Release\RedResQ_API.Lib.csproj.CopyComplete
+C:\Users\phili\Source\Repos\phil1110\RedResQ_API\RedResQ_API.Lib\obj\Release\RedResQ_API.Lib.dll
+C:\Users\phili\Source\Repos\phil1110\RedResQ_API\RedResQ_API.Lib\obj\Release\RedResQ_API.Lib.pdb
