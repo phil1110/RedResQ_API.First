@@ -5,9 +5,9 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedResQ_API.Lib", "RedResQ_API.Lib\RedResQ_API.Lib.csproj", "{93BC6B5F-3BD8-4035-A9C6-40D98F005521}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedResQ.Demo", "RedResQ.Demo\RedResQ.Demo.csproj", "{40EF897E-DD49-4C6D-B4FF-82715CF8A4D0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedResQ_API.Service", "RedResQ_API.Service\RedResQ_API.Service.csproj", "{49ACF8EE-A541-4E1B-A9D2-CE55079357B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedResQ_API.Demo", "RedResQ_API.Demo\RedResQ_API.Demo.csproj", "{A5EC3D03-2B09-460A-A7D0-15B9F29E2F51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +19,19 @@ Global
 		{93BC6B5F-3BD8-4035-A9C6-40D98F005521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93BC6B5F-3BD8-4035-A9C6-40D98F005521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93BC6B5F-3BD8-4035-A9C6-40D98F005521}.Release|Any CPU.Build.0 = Release|Any CPU
-		{40EF897E-DD49-4C6D-B4FF-82715CF8A4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40EF897E-DD49-4C6D-B4FF-82715CF8A4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40EF897E-DD49-4C6D-B4FF-82715CF8A4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40EF897E-DD49-4C6D-B4FF-82715CF8A4D0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{49ACF8EE-A541-4E1B-A9D2-CE55079357B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{49ACF8EE-A541-4E1B-A9D2-CE55079357B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49ACF8EE-A541-4E1B-A9D2-CE55079357B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49ACF8EE-A541-4E1B-A9D2-CE55079357B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EC3D03-2B09-460A-A7D0-15B9F29E2F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EC3D03-2B09-460A-A7D0-15B9F29E2F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EC3D03-2B09-460A-A7D0-15B9F29E2F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EC3D03-2B09-460A-A7D0-15B9F29E2F51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7433ECFF-E525-42DF-8DD5-D1C94EB2C8D6}
 	EndGlobalSection
 EndGlobal
