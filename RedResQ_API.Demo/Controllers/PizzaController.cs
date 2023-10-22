@@ -2,7 +2,6 @@
 using RedResQ_API.Demo.Models;
 using RedResQ_API.Demo.Services;
 using Microsoft.AspNetCore.Mvc;
-using RedResQ_API.Lib;
 
 namespace RedResQ_API.Demo.Controllers;
 
