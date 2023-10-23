@@ -25,3 +25,5 @@ C:\Users\phili\RiderProjects\RedResQ_API\RedResQ_API.Lib\obj\Debug\RedResQ_API.L
 C:\Users\phili\RiderProjects\RedResQ_API\RedResQ_API.Lib\obj\Debug\RedResQ_API.Lib.csproj.CopyComplete
 C:\Users\phili\RiderProjects\RedResQ_API\RedResQ_API.Lib\obj\Debug\RedResQ_API.Lib.dll
 C:\Users\phili\RiderProjects\RedResQ_API\RedResQ_API.Lib\obj\Debug\RedResQ_API.Lib.pdb
+C:\Users\phili\RiderProjects\RedResQ_API\RedResQ_API.Lib\bin\Debug\System.Data.SqlClient.dll
+C:\Users\phili\RiderProjects\RedResQ_API\RedResQ_API.Lib\bin\Debug\System.Data.SqlClient.xml

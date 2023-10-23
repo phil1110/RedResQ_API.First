@@ -4,6 +4,21 @@
     "C:\\Users\\phili\\RiderProjects\\RedResQ_API\\RedResQ_API.Service\\RedResQ_API.Service.csproj": {}
   },
   "projects": {
+    "C:\\Users\\phili\\RiderProjects\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\phili\\RiderProjects\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj",
+        "projectName": "RedResQ_API.Lib",
+        "projectPath": "C:\\Users\\phili\\RiderProjects\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Users\\phili\\RiderProjects\\RedResQ_API\\RedResQ_API.Service\\RedResQ_API.Service.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +47,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\phili\\RiderProjects\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj": {
+                "projectPath": "C:\\Users\\phili\\RiderProjects\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -53,9 +72,17 @@
               "target": "Package",
               "version": "[1.19.4, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
