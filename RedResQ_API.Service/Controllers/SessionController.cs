@@ -14,8 +14,17 @@ public class SessionController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<object> Get()
+    public ActionResult<object> Get(string password, string username = "", string email = "")
     {
-        return SessionService.Login("", "", "");
+        var output = SessionService.Login(username, email, password);
+
+        if (output == null)
+        {
+            return NotFound();
+        }
+        else
+        {
+            return output;
+        }
     }
 }

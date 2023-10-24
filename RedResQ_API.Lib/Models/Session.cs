@@ -6,18 +6,18 @@ namespace RedResQ_API.Lib.Models
     {
         #region Instance variables
 
-        private string _id;
-        private DateTime _creationTime;
+        private int _id;
+        private string _deviceId;
         private Person _person;
 
         #endregion
 
         #region Constructor
 
-        public Session(string id, Person person)
+        public Session(int id, string deviceId,Person person)
         {
             Id = id;
-            CreationTime = DateTime.Now;
+            _deviceId = deviceId;
             Person = person;
         }
 
@@ -25,16 +25,16 @@ namespace RedResQ_API.Lib.Models
 
         #region Properties
 
-        public string Id
+        public int Id
         {
             get => _id;
             private set => _id = value;
         }
 
-        public DateTime CreationTime
+        public string DeviceId
         {
-            get => _creationTime;
-            private set => _creationTime = value;
+            get => _deviceId;
+            private set => _deviceId = value;
         }
 
         public Person Person
