@@ -2,15 +2,7 @@
 {
     public class Quiz
     {
-        #region Instance variables
-
-        private int _id;
-        private string _name;
-        private int _maxScore;
-        private Question[] _questions;
-
-        #endregion
-
+        
         #region Constructor
 
         public Quiz(int id, string name, int maxScore, Question[] questions)
@@ -25,29 +17,13 @@
 
         #region Properties
 
-        public int Id
-        {
-            get => _id;
-            private set => _id = value;
-        }
+        public int Id { get; private set; }
 
-        public string Name
-        {
-            get => _name;
-            private set => _name = value;
-        }
+        public string Name { get; private set; }
 
-        public int MaxScore
-        {
-            get => _maxScore;
-            private set => _maxScore = value;
-        }
+        public int MaxScore { get; private set; }
 
-        public Question[] Questions
-        {
-            get => _questions;
-            private set => _questions = value;
-        }
+        public Question[] Questions { get; private set; }
 
         #endregion
     }

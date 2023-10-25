@@ -16,13 +16,14 @@ namespace RedResQ_API.Lib.Models
         private Language _language;
         private Location _location;
         private Settings _settings;
+        private Role _role;
 
         #endregion
 
         #region Constructor
 
         public Person(int id, string username, string firstName, string lastName, string email, DateTime birthdate,
-            Sex sex, Language language, Location location, Settings settings)
+            Sex sex, Language language, Location location, Settings settings, Role role)
         {
             Id = id;
             Username = username;
@@ -34,6 +35,7 @@ namespace RedResQ_API.Lib.Models
             Language = language;
             Location = location;
             Settings = settings;
+            Role = role;
         }
 
         #endregion
@@ -98,6 +100,12 @@ namespace RedResQ_API.Lib.Models
         {
             get => _settings;
             private set => _settings = value;
+        }
+
+        public Role Role
+        {
+            get => _role;
+            private set => _role = value;
         }
 
         #endregion
