@@ -39,12 +39,7 @@ namespace RedResQ_API.Lib.Services
                         if (output.Rows.Count == 1)
                         {
                             var length = output.Rows[0].ItemArray.Length - 1;
-
-                            if (!Enum.TryParse<Sex>(Convert.ToString(output.Rows[0].ItemArray[length - 7]), out var sex))
-                            {
-                                return null;
-                            }
-
+                            
                             var role = new Role(Convert.ToInt32(output.Rows[0].ItemArray[length - 1]),
                                 Convert.ToString(output.Rows[0].ItemArray[length]));
 
@@ -54,7 +49,7 @@ namespace RedResQ_API.Lib.Services
                                 Convert.ToString(output.Rows[0].ItemArray[length - 2]), 
                                 Convert.ToString(output.Rows[0].ItemArray[length - 1]),  
                                 Convert.ToString(output.Rows[0].ItemArray[length]));
-
+                            
                             length -= 4;
                             
                             var lang = new Language(Convert.ToInt32(output.Rows[0].ItemArray[length - 1]),
@@ -62,6 +57,13 @@ namespace RedResQ_API.Lib.Services
 
                             length -= 2;
 
+                            if (!Enum.TryParse<Sex>(Convert.ToString(output.Rows[0].ItemArray[length]), out var sex))
+                            {
+                                return null;
+                            }
+
+                            length--;
+                            
                             var person = new Person(Convert.ToInt32(output.Rows[0].ItemArray[length - 5]),
                                 Convert.ToString(output.Rows[0].ItemArray[length - 4]),
                                 Convert.ToString(output.Rows[0].ItemArray[length - 3]),
