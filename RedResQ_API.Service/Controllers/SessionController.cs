@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RedResQ_API.Lib.Services;
 using System.Data.SqlClient;
+using RedResQ_API.Lib.Models;
 
 namespace RedResQ_API.Service.Controllers;
 
@@ -14,17 +15,24 @@ public class SessionController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<object> Get(string password, string username = "", string email = "")
+    public ActionResult<Session> Get(string password, string username = "", string email = "")
     {
-        var output = SessionService.Login(username, email, password);
-
-        if (output == null)
+        try
         {
-            return NotFound();
+            var output = SessionService.Login(username, email, password);
+            
+            if (output == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return output;
+            }
         }
-        else
+        catch (Exception e)
         {
-            return output;
+            return BadRequest(e.Message);
         }
     }
 }
