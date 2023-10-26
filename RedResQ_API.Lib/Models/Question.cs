@@ -2,14 +2,6 @@
 {
     public class Question
     {
-        #region Instance variables
-
-        private int _id;
-        private string _text;
-        private Answer[] _answers;
-
-        #endregion
-
         #region Constructor
 
         public Question(int id, string text, Answer[] answers)
@@ -23,23 +15,11 @@
 
         #region Properties
 
-        public int Id
-        {
-            get => _id;
-            private set => _id = value;
-        }
+        public int Id { get; private set; }
 
-        public string Text
-        {
-            get => _text;
-            private set => _text = value;
-        }
+        public string Text { get; private set; }
 
-        public Answer[] Answers
-        {
-            get => _answers;
-            private set => _answers = value;
-        }
+        public Answer[] Answers { get; private set; }
 
         #endregion
     }

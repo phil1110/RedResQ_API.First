@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
-using Newtonsoft.Json;
 using RedResQ_API.Lib.Models;
 
 namespace RedResQ_API.Lib.Services
@@ -39,34 +38,45 @@ namespace RedResQ_API.Lib.Services
 
                         if (output.Rows.Count == 1)
                         {
-                            Sex sex;
                             var length = output.Rows[0].ItemArray.Length - 1;
+                            
+                            var role = new Role(Convert.ToInt32(output.Rows[0].ItemArray[length - 1]),
+                                Convert.ToString(output.Rows[0].ItemArray[length]));
 
-                            if (!Enum.TryParse<Sex>(Convert.ToString(output.Rows[0].ItemArray[length - 7]), out sex))
+                            length -= 2;
+                            
+                            var loc = new Location(Convert.ToInt32(output.Rows[0].ItemArray[length - 3]), 
+                                Convert.ToString(output.Rows[0].ItemArray[length - 2]), 
+                                Convert.ToString(output.Rows[0].ItemArray[length - 1]),  
+                                Convert.ToString(output.Rows[0].ItemArray[length]));
+                            
+                            length -= 4;
+                            
+                            var lang = new Language(Convert.ToInt32(output.Rows[0].ItemArray[length - 1]),
+                                Convert.ToString(output.Rows[0].ItemArray[length]));
+
+                            length -= 2;
+
+                            if (!Enum.TryParse<Sex>(Convert.ToString(output.Rows[0].ItemArray[length]), out var sex))
                             {
                                 return null;
                             }
-                            
-                            var loc = new Location(Convert.ToInt32(output.Rows[0].ItemArray[length - 4]), 
-                                Convert.ToString(output.Rows[0].ItemArray[length - 3]), 
-                                Convert.ToString(output.Rows[0].ItemArray[length - 2]), 
-                                Convert.ToString(output.Rows[0].ItemArray[length - 1]), 
-                                Convert.ToString(output.Rows[0].ItemArray[length]));
-                            
-                            var lang = new Language(Convert.ToInt32(output.Rows[0].ItemArray[length - 6]),
-                                Convert.ToString(output.Rows[0].ItemArray[length - 5]));
 
-                            var person = new Person(Convert.ToInt32(output.Rows[0].ItemArray[length - 13]),
-                                Convert.ToString(output.Rows[0].ItemArray[length - 12]),
-                                Convert.ToString(output.Rows[0].ItemArray[length - 11]),
-                                Convert.ToString(output.Rows[0].ItemArray[length - 10]),
-                                Convert.ToString(output.Rows[0].ItemArray[length - 9]),
-                                (DateTime)output.Rows[0].ItemArray[length - 8],
+                            length--;
+                            
+                            var person = new Person(Convert.ToInt32(output.Rows[0].ItemArray[length - 5]),
+                                Convert.ToString(output.Rows[0].ItemArray[length - 4]),
+                                Convert.ToString(output.Rows[0].ItemArray[length - 3]),
+                                Convert.ToString(output.Rows[0].ItemArray[length - 2]),
+                                Convert.ToString(output.Rows[0].ItemArray[length - 1]),
+                                (DateTime)output.Rows[0].ItemArray[length],
                                 sex,
-                                lang, loc, null);
+                                lang, loc, null, role);
 
-                            return new Session(Convert.ToInt32(output.Rows[0].ItemArray[length - 13]),
-                                Convert.ToString(output.Rows[0].ItemArray[length - 12]),
+                            length -= 6;
+
+                            return new Session(Convert.ToInt32(output.Rows[0].ItemArray[length - 1]),
+                                Convert.ToString(output.Rows[0].ItemArray[length]),
                                 person);
                         }
                         else

@@ -2,13 +2,6 @@
 {
     public class Language
     {
-        #region Instance variables
-
-        private int _id;
-        private string _name;
-
-        #endregion
-
         #region Constructor
 
         public Language(int id, string name)
@@ -21,17 +14,9 @@
 
         #region Properties
 
-        public int Id
-        {
-            get => _id;
-            private set => _id = value;
-        }
+        public int Id { get; private set; }
 
-        public string Name
-        {
-            get => _name;
-            private set => _name = value;
-        }
+        public string Name { get; private set; }
 
         #endregion
     }

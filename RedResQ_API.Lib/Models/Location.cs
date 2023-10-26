@@ -2,24 +2,13 @@
 {
     public class Location
     {
-        #region Instance variables
-
-        private int _id;
-        private string _country;
-        private string _region;
-        private string _place;
-        private string _postalCode;
-
-        #endregion
-
         #region Constructor
 
-        public Location(int id, string country, string region, string place, string postalCode)
+        public Location(int id, string country, string city, string postalCode)
         {
             Id = id;
             Country = country;
-            Region = region;
-            Place = place;
+            City = city;
             PostalCode = postalCode;
         }
 
@@ -27,35 +16,13 @@
 
         #region Properties
 
-        public int Id
-        {
-            get => _id;
-            private set => _id = value;
-        }
+        public int Id { get; private set; }
 
-        public string Country
-        {
-            get => _country;
-            private set => _country = value;
-        }
+        public string Country { get; private set; }
 
-        public string Region
-        {
-            get => _region;
-            private set => _region = value;
-        }
+        public string City { get; private set; }
 
-        public string Place
-        {
-            get => _place;
-            private set => _place = value;
-        }
-
-        public string PostalCode
-        {
-            get => _postalCode;
-            private set => _postalCode = value;
-        }
+        public string PostalCode { get; private set; }
 
         #endregion
     }
