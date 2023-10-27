@@ -73,6 +73,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[7.0.10, 7.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[7.0.10, 7.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[7.0.10, 7.0.10]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[7.0.10, 7.0.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -83,6 +101,11 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
       }
     },
     "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj": {
@@ -90,11 +113,23 @@
         "projectUniqueName": "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj",
         "projectName": "RedResQ_API.Lib",
         "projectPath": "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Lib\\RedResQ_API.Lib.csproj",
+        "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\phili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net48": {
             "projectReferences": {}
           }
-        }
+        },
+        "packagesConfigPath": "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Lib\\packages.config"
       },
       "frameworks": {
         "net48": {}

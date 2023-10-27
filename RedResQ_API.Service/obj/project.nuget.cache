@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7D/7BwyhRwXzX4VTeSddk1cEY7yasKpVrRuP4D9gcbdf0qvRmwQZBkCfemmUXWsGkCLi/C5V3yx+//Y205w9kA==",
+  "dgSpecHash": "4vAXQlWZ5MYUA9mPKHUgE9S1xdaMmZe7BOiGHy/lzJDpKebdtxhHvNbMb44zLrabFjOOc5rMEtycZz8RFfwK7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Service\\RedResQ_API.Service.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,11 @@
     "C:\\Users\\phili\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\phili\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
     "C:\\Users\\phili\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\phili\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\phili\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.10\\microsoft.netcore.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.10\\microsoft.aspnetcore.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.10\\microsoft.netcore.app.crossgen2.win-x64.7.0.10.nupkg.sha512"
   ],
   "logs": []
 }

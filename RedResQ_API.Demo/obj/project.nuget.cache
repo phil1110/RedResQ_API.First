@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lmw6lvFK7lP/vJXlqBR4cUIT2SUcEFLgCIJkdhUtk0BE4pgmb1x2Fm32UUE037t/nFvG2yvBIcIcHn5TGwrx3g==",
+  "dgSpecHash": "G6rvWehtNh7jVt2f6WmvCj1AGSDXE2pU1lcNxyrEd2HconeqhkfZG+/SpGBYgDnAOmw5OMTXczVw1zFPWBEjGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Demo\\RedResQ_API.Demo.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,11 @@
     "C:\\Users\\phili\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\phili\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\phili\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "C:\\Users\\phili\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "C:\\Users\\phili\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.10\\microsoft.netcore.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.10\\microsoft.aspnetcore.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.10\\microsoft.netcore.app.crossgen2.win-x64.7.0.10.nupkg.sha512"
   ],
   "logs": []
 }
