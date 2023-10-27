@@ -15,11 +15,11 @@ public class SessionController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<Session> Get(string password, string username = "", string email = "")
+    public ActionResult<Session> Get(string id, string secret)
     {
         try
         {
-            var output = SessionService.Login(username, email, password);
+            var output = SessionService.Login(id, secret);
             
             if (output == null)
             {
