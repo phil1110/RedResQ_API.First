@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="RedResQ@localhost" uuid="caf91131-195b-4227-97d3-15637fca3a3b">
+    <data-source source="LOCAL" name="RedResQ@localhost" uuid="3cfc5477-3a85-490c-ac56-303470e3b429">
       <driver-ref>sqlserver.jb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>

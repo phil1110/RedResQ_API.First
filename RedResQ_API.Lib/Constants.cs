@@ -5,8 +5,7 @@ namespace RedResQ_API.Lib
     public static class Constants
     {
         public const int SessionValidity = 30;
-        public static readonly string ConnectionString;
-        
+
         static Constants()
         {
             var builder = new SqlConnectionStringBuilder
@@ -19,5 +18,7 @@ namespace RedResQ_API.Lib
             
             ConnectionString = builder.ConnectionString;
         }
+
+        public static string ConnectionString { get; private set; }
     }
 }

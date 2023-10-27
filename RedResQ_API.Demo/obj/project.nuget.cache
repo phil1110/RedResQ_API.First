@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lmw6lvFK7lP/vJXlqBR4cUIT2SUcEFLgCIJkdhUtk0BE4pgmb1x2Fm32UUE037t/nFvG2yvBIcIcHn5TGwrx3g==",
+  "dgSpecHash": "C9OIbQvV1zK/RKaoEkj4pqDgbTGHTGAh4LOZeLYRBrIBkrTvrJhreklKM+OknV2SyOx7vHO7oDEgShHZhLC30Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phili\\Documents\\ITP\\RedResQ_API\\RedResQ_API.Demo\\RedResQ_API.Demo.csproj",
+  "projectFilePath": "C:\\Users\\phili\\RiderProjects\\RedResQ_API\\RedResQ_API.Demo\\RedResQ_API.Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phili\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\phili\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
